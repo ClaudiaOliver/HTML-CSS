@@ -1,0 +1,76 @@
+body{
+	font-family: 'helvetica', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.sem-mp{
+	margin: 0px; !important
+}
+.social{
+
+}
+.social ul{
+	list-style: none;
+	margin-top: 8%;
+	float: right;
+	margin-right: 4%;
+}
+.social
+ li{
+	float: left;
+	margin-left: 15px;
+}
+.slide{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.texto-slide {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	color: white;
+}
+}
+figure{
+	margin: 0px;
+}
+.video{
+	text-align: center;
+	background-color: gray;
+}
+figure.foto{
+	position: relative;
+	box-shadow: 2px 2px 4px black;
+}
+figure.foto figcaption{
+	opacity: 0;
+	position:absolute;
+	top: 0px;
+	background:rgba(0,0,0,0.5);
+	width: 100%;
+	color:black;
+	height: 100%;
+	text-align:center;
+	padding:15%;
+	box-sizing: border-box;
+}
+figure.foto figcaption:hover{
+	opacity: 1;
+	transition: opacity 1s;
+}
+.texto-slide h2,h3{
+	font-size: 1em;
+	text-align: center;
+}
+.menu{
+	background-color: black;
+}
+.botao-modal{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+}
